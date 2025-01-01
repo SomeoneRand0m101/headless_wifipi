@@ -1,0 +1,16 @@
+# Added by Armbian
+#
+# Reference: https://netplan.readthedocs.io/en/stable/netplan-yaml/
+#
+# Let systemd-networkd manage all Ethernet devices on this system, but be configured by Netplan.
+
+network:
+  version: 2
+  renderer: networkd
+  wifis:
+    wlan0:
+      dhcp4: true
+      dhcp6: true
+      access-points:
+        "WiFiName":
+          password: "WiFiPassword"
