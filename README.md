@@ -4,11 +4,11 @@ Linux:
 1. Download the "HeadlessPI.sh" file in the releases and edit all the paramters like WiFi password and name
 2. Open the terminal and run "HeadlessPI.sh" as root! So run:
 ```sudo bash HeadlessPI.sh```
+3. Enjoy!
 
+Note:
   **Why as ROOT?**
         The ARMBIAN drive can only be accessed by ROOT users, so you cant edit the files as a normal user
-
-3. Enjoy!
 
 # **Manual Setup**
 
