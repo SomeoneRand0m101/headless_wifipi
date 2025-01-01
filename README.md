@@ -5,7 +5,7 @@ Linux:
 2. Open the terminal and run "HeadlessPI.sh" as root! So run:
 ```sudo bash HeadlessPI.sh```
 
---  **Why as ROOT?**
+  **Why as ROOT?**
         The ARMBIAN drive can only be accessed by ROOT users, so you cant edit the files as a normal user
 
 3. Enjoy!
