@@ -1,5 +1,3 @@
-# headless_wifipi
-
 # **Automatic Setup**
 
 Linux:
